@@ -1,0 +1,27 @@
+name: 4th-down
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - xgboost
+  - scipy
+  - ipywidgets
+  - jupyter
+  - ipykernel
+  - pillow
+  - pip
+  - pip:
+    - theano
+    - arviz
+    - graphviz
+    - pymc==5.16.0
+    - tqdm
+    - nfl-data-py
+    - tabulate
+    - meteomatics
