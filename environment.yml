@@ -25,3 +25,4 @@ dependencies:
     - nfl-data-py
     - tabulate
     - meteomatics
+    - ImageMagic
